@@ -1,0 +1,145 @@
+    1  man sudo_root
+    2  wsl --list
+    3  ls
+    4  mkdir alex
+    5  cd alex
+    6  list
+    7  ls
+    8  mkdir carpeta1
+    9  ls
+   10  cd tesis/
+   11  ls 
+   12  cd pipes
+   13  ls
+   14  echo "hola"
+   15  echo "hola" > archivoRnd.txt 
+   16  cat archivoRnd.txt 
+   17  echo "mundo" >> archivoRnd.txt 
+   18  cat archivoRnd.txt 
+   19  echo "adios" >> archivoRnd.txt 
+   20  cat archivoRnd.txt 
+   21  sort < archivoRnd.txt 
+   22  touch otroarchivo.txt
+   23  ls
+   24  ls -al | grep ".txt."
+   25  ls -all | grep ".txt"
+   26  ls 
+   27  ls | grep ".txt."
+   28  ls | grep ".txt"
+   29  cd ..
+   30  mkdir env
+   31  ls
+   32  cd env/
+   33  printenv
+   34  env
+   35  export VIEJA_VARIABLE=holamundo
+   36  env
+   37  export VIEJA_VARIABLE=holamundo
+   38  unset VIEJA_VARIABLE 
+   39  env
+   40  cd
+   41  echo 
+   42  echo $HOME
+   43  history
+   44  history hi
+   45  history | grep
+   46  history
+   47  ls
+   48  ssh alexn@
+   49  ssh alexn@DESKTOP-VQO0P4T
+   50  ssh-keygen -tIrsa -b 4096 -C "alexn"
+   51  ls
+   52  cd tesis/
+   53  ls
+   54  cd ..
+   55  ls
+   56  mkdir proyecto_comandos
+   57  ls
+   58  cd proyecto_comandos/
+   59  mkdir documentos imagenes scripts
+   60  ls
+   61  cd documentos/
+   62  touch notas.txt
+   63  ls
+   64  nano notas.txt 
+   65  cat notas.txt 
+   66  ls
+   67  cd ..
+   68  ls
+   69  rm documentos/
+   70  rm -r documentos/
+   71  ls
+   72  rm -r imagenes/
+   73  rm -r scripts/
+   74  ls
+   75  cd ..
+   76  ls
+   77  rm -r proyecto_comandos/
+   78  clear
+   79  ls
+   80  clear
+   81  mkdir proyecto_comandos
+   82  ls
+   83  cd proyecto_comandos/
+   84  mkdir documentos imagenes scripts
+   85  ls
+   86  cd documentos/
+   87  touch notas.txt
+   88  ls
+   89  nano notas.txt 
+   90  cat notas.txt 
+   91  ls
+   92  cd
+   93  ls
+   94  cd proyecto_comandos/
+   95  ls
+   96  cd documentos/
+   97  ls
+   98  mv notas.txt ./scripts
+   99  ls
+  100  cd ..
+  101  ls
+  102  cd scripts/
+  103  ls
+  104  cd ..
+  105  cd documentos/
+  106  ls
+  107  nano scripts 
+  108  mv scripts notas.txt
+  109  ls
+  110  cp notas.txt  ../scripts/backup_notas.txt
+  111  ls
+  112  cd ..
+  113  ls
+  114  cd scripts/
+  115  ls
+  116  mv ../scripts/backup_notas.txt ../imagenes/
+  117  ls
+  118  cd 
+  119  cd -
+  120  -
+  121  cd ..
+  122  ls
+  123  cd imagenes/
+  124  ls
+  125  cd ..
+  126  cd documentos/
+  127  ls
+  128  touch resumen.txt
+  129  ls
+  130  cd ..
+  131  cat documentos/notas.txt >> documentos/resumen.txt 
+  132  cd documentos/
+  133  ls
+  134  cat resumen.txt 
+  135  echo "linea adiciona" >> resumen.txt 
+  136  cat resumen.txt 
+  137  cd ..
+  138  cd imagenes/
+  139  ls
+  140  rm backup_notas.txt 
+  141  ls
+  142  cd ..
+  143  rmdir imagenes/
+  144  ls
+  145  history | tee tarea-s1-tu_nombre_tu_apellido.txt
