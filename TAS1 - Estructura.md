@@ -96,7 +96,7 @@ Figura 8-4 Agregación de contenido mediante redireccionamiento.
 5. Copia el archivo notas.txt a la carpeta scripts y cambia su nombre a backup_notas.txt.
 
 Figura 8-5 Copia de archivos y cambio de nombre.
-<img src="./practica1/5.png" alt="drawing0" width="500"/>
+<img src="./practica1/5.PNG" alt="drawing0" width="500"/>
 
 6. Mueve el archivo backup_notas.txt a la carpeta imágenes.
 
