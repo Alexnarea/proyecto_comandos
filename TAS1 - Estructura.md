@@ -72,49 +72,65 @@ Para realizar esta practica el estudiante necesita tener claro los siguientes te
 1. En tu directorio de trabajo, crea una carpeta llamada proyecto_comandos.
 
 Figura 8-1 Creación de carpeta.
-<img src="./practica1/1.png" alt="drawing0" width="500"/>
+
+
+<img src="./practica1/1.PNG" alt="drawing0" width="500"/>
 
 
 2. Dentro de proyecto_comandos, crea tres subcarpetas: documentos, imágenes y scripts.
 
 Figura 8-2 Estructura inicial de carpetas creada con mkdir.
-<img src="./practica1/2.png" alt="drawing0" width="500"/>
+
+
+<img src="./practica1/2.PNG" alt="drawing0" width="500"/>
 
 **Manipulación de archivos:**
 
 3. Dentro de la carpeta documentos, crea un archivo de texto llamado notas.txt.
 
 Figura 8-3 Creacion del archivo notas.txt usando touch.
-<img src="./practica1/3.png" alt="drawing0" width="500"/>
+
+
+<img src="./practica1/3.PNG" alt="drawing0" width="500"/>
 
 
 4. Agrega al menos tres líneas de texto en notas.txt utilizando un editor de texto en la terminal (nano, vim) o con redireccionamiento (echo).
 
-Figura 8-4 Agregación de contenido mediante redireccionamiento.  
-<img src="./practica1/4.png" alt="drawing0" width="500"/>
+Figura 8-4 Agregación de contenido mediante redireccionamiento.
+
+
+<img src="./practica1/4.PNG" alt="drawing0" width="500"/>
 
 5. Copia el archivo notas.txt a la carpeta scripts y cambia su nombre a backup_notas.txt.
 
 Figura 8-5 Copia de archivos y cambio de nombre.
+
+
 <img src="./practica1/5.PNG" alt="drawing0" width="500"/>
 
 6. Mueve el archivo backup_notas.txt a la carpeta imágenes.
 
 Figura 8-6 Movimiento de archivos
-<img src="./practica1/6.png" alt="drawing0" width="500"/>
+
+
+<img src="./practica1/6.PNG" alt="drawing0" width="500"/>
 
 **Redirección y concatenación:**
 
 7. Crea un archivo llamado resumen.txt en documentos.
 
 Figura 8-7 Creacion de archivo. 
-<img src="./practica1/7.png" alt="drawing0" width="500"/>
+
+
+<img src="./practica1/7.PNG" alt="drawing0" width="500"/>
 
 8. Redirecciona el contenido de notas.txt a resumen.txt.
 9. Añade una nueva línea de texto a resumen.txt sin sobrescribir su contenido.
 
-Figura 8-8 Redirección de contenido y adición de una nueva linea. 
-<img src="./practica1/8.png" alt="drawing0" width="500"/>
+Figura 8-8 Redirección de contenido y adición de una nueva linea.
+
+
+<img src="./practica1/8.PNG" alt="drawing0" width="500"/>
 
 **Eliminación de archivos y carpetas:**
 
@@ -122,19 +138,25 @@ Figura 8-8 Redirección de contenido y adición de una nueva linea.
 11. Elimina la carpeta imágenes (solo si está vacía).
 
 Figura 8-9 Eliminación de archivo y carpeta.
-<img src="./practica1/9.png" alt="drawing0" width="500"/>
+
+
+<img src="./practica1/9.PNG" alt="drawing0" width="500"/>
 
 **Entrega**:
 
 12. Vuelca el contenido del comando history a un archivo llamado tarea-s1-nombre_apellido.txt utilizando tuberías.
 
 Figura 8-10 Lista de comandos con history.
-<img src="./practica1/10.png" alt="drawing0" width="500"/>
+
+
+<img src="./practica1/10.PNG" alt="drawing0" width="500"/>
 
 12. Sustituye "nombre_apellido" por tu nombre y apellido correspondiente.
 
-Figura 8-11 Sustitución de nombre de archivo. 
-<img src="./practica1/11.png" alt="drawing0" width="500"/>
+Figura 8-11 Sustitución de nombre de archivo.
+
+
+<img src="./practica1/11.PNG" alt="drawing0" width="500"/>
 
 ## 9. Resultados esperados:
     
@@ -146,7 +168,7 @@ Se trabajó con redirección de contenido mediante el uso de `>` para crear el a
 
 Cada paso fue documentado con capturas de pantalla para evidencia  del uso correcto de los comandos y la progresión del trabajo. Estos resultados reflejan la comprensión del manejo de la terminal y de operaciones básicas en entornos basados en Linux.
 
-<img src="./practica1/12.png" alt="drawing0" width="500"/>
+<img src="./practica1/12.PNG" alt="drawing0" width="500"/>
 
 ## 10. Bibliografía
     
