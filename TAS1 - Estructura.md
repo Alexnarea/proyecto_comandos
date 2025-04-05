@@ -33,7 +33,7 @@ Los comandos de Linux permite controlar el sistema desde la interfaz de linea de
 - **Se pueden utilizar para acceder a recursos del sistema** como el sistema de archivos, red, memoria y CPU.
 - **Forman la base de la interacción** con servidores y sistemas operativos Linux.
 
-<img src="./practica1/Pasted image imagenLinux.png" alt="drawing0" width="500"/>
+<img src="./practica1/imagenLinux.png" alt="drawing0" width="500"/>
 
 ## 4. Conocimientos previos.
    
